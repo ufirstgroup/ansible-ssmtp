@@ -11,10 +11,10 @@ Role Variables
 A more detailed description of these options can be found in the
 templates/ssmtp_conf.j2 file.
 
-  ssmtp_root_recipient: admin@example.com   # Address to receive root emails
-  ssmtp_mailhub: mailhub.example.com        # Hostname or IP address of mail hub
-  ssmtp_rewrite_domain: example.com         # Mail will seem to come from this domain
-  ssmtp_from_line_override: NO              # YES/NO - whether to allow user to specify From: address
+    ssmtp_root_recipient: admin@example.com   # Address to receive root emails
+    ssmtp_mailhub: mailhub.example.com        # Hostname or IP address of mail hub
+    ssmtp_rewrite_domain: example.com         # Mail will seem to come from this domain
+    ssmtp_from_line_override: NO              # YES/NO - whether to allow user to specify From: address
 
 
 Requirements
