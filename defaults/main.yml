@@ -1,0 +1,8 @@
+---
+
+# Default sSMTP configuration.
+
+ssmtp_root_recipient: admin@example.com
+ssmtp_mailhub: mailhub.example.com
+ssmtp_rewrite_domain: example.com
+ssmtp_from_line_override: NO
