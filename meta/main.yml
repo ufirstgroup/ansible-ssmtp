@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: Brian Showalter
+  author: Oriol Rius
   license: MIT
   min_ansible_version: 1.4
 

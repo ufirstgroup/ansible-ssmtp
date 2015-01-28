@@ -2,7 +2,8 @@
 
 # Default sSMTP configuration.
 
-ssmtp_root_recipient: admin@example.com
-ssmtp_mailhub: mailhub.example.com
-ssmtp_rewrite_domain: example.com
-ssmtp_from_line_override: NO
+notification_mail: admin@example.com
+ssmtp_mailhub: smtp.mandrillapp.com:587
+ssmtp_hostname: fqdn_of_your_mail_server
+ssmtp_auth_user: the_mandrill_account_username
+ssmtp_auth_pass: the_mandrill_api_key
