@@ -33,6 +33,16 @@ Dependencies
 
 Mandrill account.
 
+Installation
+----------
+
+ansible-galaxy install oriol.rius.ssmtp-mandrill
+
+    ---
+    - hosts: all
+      roles:
+        - oriol.rius.ssmtp-mandrill
+
 License
 ------
 
