@@ -12,4 +12,4 @@
   template: src=ssmtp_conf.j2 dest=/etc/ssmtp/ssmtp.conf
 
 - name: Set up revaliases
-  template: src=revaliases.j2 dest=/etc/ssmtp/revaliases.conf
+  template: src=revaliases.j2 dest=/etc/ssmtp/revaliases
